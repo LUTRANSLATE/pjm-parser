@@ -1,0 +1,21 @@
+::By paulgrammer
+::This it is simple .pjm file
+
+:: This is a single ENTRY block
+I've already found a hotel = Nafunye dda wooteri
+
+:: This is a property & value block
+<PROPERTY && VALUES>
+    <ENTRY>Where is a %{property}? = %{value} eri ludda wa?</ENTRY>
+    <TARGET>hotel && Wooteri</TARGET>
+    <TARGET>cheap hotel && Wooteri eya layisi</TARGET>
+    <TARGET>nice hotel && Wooteri ennungi</TARGET>
+    <TARGET>inexpensive hotel && Wooteri ey'omuwendo omusaamusamu</TARGET>
+</PROPERTY && VALUES>
+
+:: This is a one for many
+<ONE FOR MANY>
+    <ENTRY>Playing games</ENTRY>
+    <ENTRY>Playing sports</ENTRY>
+    <TARGET>Kuzannya mizannyo</TARGET>
+</ONE FOR MANY>
